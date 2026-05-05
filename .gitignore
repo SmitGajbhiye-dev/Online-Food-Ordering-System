@@ -1,0 +1,66 @@
+# PHP
+*.php~
+*.phpintel
+
+# Database
+*.sql~
+database_backup/
+*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# XAMPP/Local Development
+/htdocs/
+/mysql/
+/apache/
+
+# Node modules (if using any front-end tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Composer (if using in future)
+vendor/
+composer.lock
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache
+cache/
+
+# Session files
+sessions/
+
+# Dependencies (future use)
+/vendor/
+/node_modules/
