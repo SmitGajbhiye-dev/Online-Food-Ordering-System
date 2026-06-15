@@ -53,3 +53,126 @@ DBMS Project/
 ├── EXECUTION_GUIDE.md                [Step-by-step setup guide]
 └── README.md                         [This file]
 ```
+
+## 🗄️ Database Tables
+
+1. Users
+2. Food
+3. Orders
+4. Order_Details
+
+Database follows **3NF Normalization** and uses **Primary Keys** and **Foreign Keys** for maintaining relationships. :contentReference[oaicite:1]{index=1}
+
+---
+
+## ⚙️ Installation
+
+### Step 1
+Install XAMPP and start:
+
+- Apache
+- MySQL
+
+### Step 2
+Create a database:
+
+```sql
+food_ordering
+```
+
+### Step 3
+Import:
+
+```text
+database.sql
+```
+
+### Step 4
+Copy project folder into:
+
+```text
+C:\xampp\htdocs\
+```
+
+### Step 5
+Open browser:
+
+```text
+http://localhost/food-ordering/
+```
+
+---
+
+## 🔑 Admin Credentials
+
+```text
+Email: admin@foodordering.com
+Password: admin123
+```
+
+### Demo User
+
+```text
+Email: john@email.com
+Password: password123
+```
+
+---
+
+## 🍽️ Sample Menu
+
+- Margherita Pizza – ₹350
+- Biryani – ₹280
+- Butter Chicken – ₹320
+- Samosa – ₹50
+- Mango Lassi – ₹80
+
+---
+
+## 🎯 Learning Outcomes
+
+- Database Design
+- ER Diagrams
+- SQL Queries
+- Normalization (1NF, 2NF, 3NF)
+- PHP Session Management
+- User Authentication
+- CRUD Operations
+- SDLC Concepts
+
+---
+
+## 🔒 Security Features
+
+- Session-Based Authentication
+- Input Validation
+- XSS Protection
+- Foreign Key Constraints
+- Access Control for Admin Pages
+
+---
+
+## 🔮 Future Enhancements
+
+- Online Payment Gateway
+- Food Search & Filters
+- Ratings & Reviews
+- Email Notifications
+- User Profile Management
+- Mobile Responsive Design
+
+---
+
+## 👨‍💻 Author
+
+Second-Year Engineering DBMS & Web Development Project
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
+
+---
+
+Thank You 
